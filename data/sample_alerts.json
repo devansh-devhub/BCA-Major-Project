@@ -1,0 +1,122 @@
+[
+  {
+    "alert_id": 1,
+    "description": "CPU utilization high on server-01",
+    "severity": 5,
+    "source": "server-01",
+    "type": "cpu",
+    "agent": "snmp",
+    "manager": "default",
+    "first_event_time": 1715083200000
+  },
+  {
+    "alert_id": 2,
+    "description": "Disk space low on server-01",
+    "severity": 4,
+    "source": "server-01",
+    "type": "disk",
+    "agent": "snmp",
+    "manager": "default",
+    "first_event_time": 1715083260000
+  },
+  {
+    "alert_id": 3,
+    "description": "Memory utilization high on server-02",
+    "severity": 4,
+    "source": "server-02",
+    "type": "memory",
+    "agent": "snmp",
+    "manager": "default",
+    "first_event_time": 1715083320000
+  },
+  {
+    "alert_id": 4,
+    "description": "Network latency high on router-01",
+    "severity": 3,
+    "source": "router-01",
+    "type": "network",
+    "agent": "ping",
+    "manager": "network",
+    "first_event_time": 1715083380000
+  },
+  {
+    "alert_id": 5,
+    "description": "Process crashed on server-01",
+    "severity": 5,
+    "source": "server-01",
+    "type": "process",
+    "agent": "log",
+    "manager": "default",
+    "first_event_time": 1715083440000
+  },
+  {
+    "alert_id": 6,
+    "description": "Database connection failed on db-01",
+    "severity": 5,
+    "source": "db-01",
+    "type": "database",
+    "agent": "jdbc",
+    "manager": "database",
+    "first_event_time": 1715083500000
+  },
+  {
+    "alert_id": 7,
+    "description": "Application error in web-01",
+    "severity": 4,
+    "source": "web-01",
+    "type": "application",
+    "agent": "log",
+    "manager": "app",
+    "first_event_time": 1715083560000
+  },
+  {
+    "alert_id": 8,
+    "description": "SSL certificate expiring soon on loadbalancer-01",
+    "severity": 2,
+    "source": "loadbalancer-01",
+    "type": "security",
+    "agent": "ssl",
+    "manager": "security",
+    "first_event_time": 1715083620000
+  },
+  {
+    "alert_id": 9,
+    "description": "Backup failed on backup-01",
+    "severity": 3,
+    "source": "backup-01",
+    "type": "backup",
+    "agent": "backup",
+    "manager": "ops",
+    "first_event_time": 1715083680000
+  },
+  {
+    "alert_id": 10,
+    "description": "Service stopped on server-03",
+    "severity": 4,
+    "source": "server-03",
+    "type": "service",
+    "agent": "systemd",
+    "manager": "default",
+    "first_event_time": 1715083740000
+  },
+  {
+    "alert_id": 11,
+    "description": "CPU temperature high on server-01",
+    "severity": 4,
+    "source": "server-01",
+    "type": "hardware",
+    "agent": "ipmi",
+    "manager": "default",
+    "first_event_time": 1715083800000
+  },
+  {
+    "alert_id": 12,
+    "description": "API response time slow on api-01",
+    "severity": 3,
+    "source": "api-01",
+    "type": "performance",
+    "agent": "http",
+    "manager": "app",
+    "first_event_time": 1715083860000
+  }
+]

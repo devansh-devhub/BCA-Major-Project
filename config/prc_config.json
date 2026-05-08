@@ -1,0 +1,11 @@
+{
+  "active_features": ["Description", "Severity", "Host"],
+  "hidden_layer_size": 10,
+  "learning_rate": 0.01,
+  "max_epochs": 50,
+  "training_strategy": "incremental",
+  "feature_sizes": {
+    "Description": 256,
+    "Host": 32
+  }
+}

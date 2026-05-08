@@ -1,0 +1,47 @@
+[
+  {
+    "sig_id": 1,
+    "description": "Server-01 performance degradation",
+    "created_date": 1715083200000,
+    "status": 1,
+    "alerts": [
+      1, 2, 5, 11
+    ]
+  },
+  {
+    "sig_id": 2,
+    "description": "Database cluster issues",
+    "created_date": 1715083500000,
+    "status": 1,
+    "alerts": [
+      6
+    ]
+  },
+  {
+    "sig_id": 3,
+    "description": "Network infrastructure problems",
+    "created_date": 1715083380000,
+    "status": 1,
+    "alerts": [
+      4
+    ]
+  },
+  {
+    "sig_id": 4,
+    "description": "Application layer issues",
+    "created_date": 1715083560000,
+    "status": 1,
+    "alerts": [
+      7, 12
+    ]
+  },
+  {
+    "sig_id": 5,
+    "description": "Infrastructure maintenance alerts",
+    "created_date": 1715083620000,
+    "status": 1,
+    "alerts": [
+      8, 9, 10
+    ]
+  }
+]
